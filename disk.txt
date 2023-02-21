@@ -1,0 +1,3 @@
+/dev/sda1     2048     4095     2048    1M BIOS boot
+/dev/sda2     4096  1054719  1050624  513M EFI System
+/dev/sda3  1054720 62912511 61857792 29,5G Linux filesystem

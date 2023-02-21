@@ -1,0 +1,83 @@
+Module                  Size  Used by
+isofs                  53248  1
+xt_conntrack           16384  1
+nft_chain_nat          16384  3
+xt_MASQUERADE          20480  1
+nf_nat                 49152  2 nft_chain_nat,xt_MASQUERADE
+nf_conntrack_netlink    53248  0
+nf_conntrack          176128  4 xt_conntrack,nf_nat,nf_conntrack_netlink,xt_MASQUERADE
+nf_defrag_ipv6         24576  1 nf_conntrack
+nf_defrag_ipv4         16384  1 nf_conntrack
+xfrm_user              45056  1
+xfrm_algo              16384  1 xfrm_user
+xt_addrtype            16384  2
+nft_compat             20480  4
+nf_tables             278528  57 nft_compat,nft_chain_nat
+libcrc32c              16384  3 nf_conntrack,nf_nat,nf_tables
+nfnetlink              20480  4 nft_compat,nf_conntrack_netlink,nf_tables
+br_netfilter           32768  0
+bridge                331776  1 br_netfilter
+stp                    16384  1 bridge
+llc                    16384  2 bridge,stp
+vboxvideo              45056  0
+overlay               163840  0
+binfmt_misc            24576  1
+nls_iso8859_1          16384  1
+snd_intel8x0           49152  2
+snd_ac97_codec        176128  1 snd_intel8x0
+ac97_bus               16384  1 snd_ac97_codec
+intel_rapl_msr         20480  0
+intel_rapl_common      40960  1 intel_rapl_msr
+snd_pcm               155648  2 snd_intel8x0,snd_ac97_codec
+snd_seq_midi           20480  0
+snd_seq_midi_event     16384  1 snd_seq_midi
+snd_rawmidi            45056  1 snd_seq_midi
+crct10dif_pclmul       16384  1
+ghash_clmulni_intel    16384  0
+snd_seq                77824  2 snd_seq_midi,snd_seq_midi_event
+joydev                 32768  0
+snd_seq_device         16384  3 snd_seq,snd_seq_midi,snd_rawmidi
+aesni_intel           376832  0
+snd_timer              40960  2 snd_seq,snd_pcm
+crypto_simd            16384  1 aesni_intel
+input_leds             16384  0
+snd                   114688  11 snd_seq,snd_seq_device,snd_intel8x0,snd_timer,snd_ac97_codec,snd_pcm,snd_rawmidi
+vboxguest             430080  6
+cryptd                 24576  2 crypto_simd,ghash_clmulni_intel
+soundcore              16384  1 snd
+mac_hid                16384  0
+serio_raw              20480  0
+sch_fq_codel           24576  3
+vmwgfx                372736  3
+drm_ttm_helper         16384  2 vmwgfx,vboxvideo
+ttm                    98304  3 vmwgfx,vboxvideo,drm_ttm_helper
+drm_kms_helper        200704  2 vmwgfx,vboxvideo
+fb_sys_fops            16384  1 drm_kms_helper
+syscopyarea            16384  1 drm_kms_helper
+sysfillrect            20480  1 drm_kms_helper
+sysimgblt              20480  1 drm_kms_helper
+msr                    16384  0
+parport_pc             53248  0
+ppdev                  24576  0
+lp                     28672  0
+ramoops                32768  0
+pstore_blk             16384  0
+parport                73728  3 parport_pc,lp,ppdev
+reed_solomon           28672  1 ramoops
+drm                   581632  8 vmwgfx,drm_kms_helper,vboxvideo,drm_ttm_helper,ttm
+efi_pstore             16384  0
+pstore_zone            32768  1 pstore_blk
+ip_tables              32768  0
+x_tables               57344  5 xt_conntrack,nft_compat,xt_addrtype,ip_tables,xt_MASQUERADE
+autofs4                45056  2
+hid_generic            16384  0
+usbhid                 65536  0
+hid                   159744  2 usbhid,hid_generic
+ahci                   49152  2
+crc32_pclmul           16384  0
+psmouse               180224  0
+libahci                49152  1 ahci
+i2c_piix4              32768  0
+e1000                 159744  0
+pata_acpi              16384  0
+video                  65536  0

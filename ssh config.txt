@@ -1,0 +1,10 @@
+nano ~/.ssh/config
+>>>>>>>>
+
+Host cucumber_yc_vm
+        User polikarpov
+        CheckHostIp no
+        ProxyCommand bash -c "nc $(~/.ssh/cucumber_ip) %p"
+        IdentityFile ~/.ssh/id_ed25519_yc
+
+

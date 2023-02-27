@@ -1,0 +1,15 @@
+#create a file with a script to get IP
+
+>>>>>
+
+#!/bin/bash
+
+yc compute instance get cucumber-yc-vm --format json | jq -r '.network_interfaces[0].primary_v4_address.one_to_one_nat.address'
+
+>>>>
+
+save
+
+>>>>
+
+chmod +x file_name

@@ -1,0 +1,10 @@
+nano ~/.bashrc
+>>>>>>>>>
+
+#user aliases
+alias get_vm_ip="yc compute instance get cucumber-yc-vm --format json | jq -r '.network_interfaces[0].primary_v4_address.one_to_one_nat.address'"
+alias start_yc_vm="yc compute instance start cucumber-yc-vm"
+alias stop_yc_vm="yc compute instance stop cucumber-yc-vm"
+
+>>>>>>>>
+source ~/.bashrc

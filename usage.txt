@@ -1,0 +1,9 @@
+#! /bin/bash
+
+cpuUsage=$(top -bn1 | awk '/Cpu/{print $2}')
+ip=$(hostname -I)
+memoryUsage=$(free -m | awk '/Mem/{print $4}')
+
+echo "IP: $ip"
+echo "Загрузка процессора: $cpuUsage %"
+echo "Свободая память: $memoryUsage MB"

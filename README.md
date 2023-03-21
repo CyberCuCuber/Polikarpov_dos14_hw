@@ -25,7 +25,8 @@ ____
 8. Просмотр логов сервиса - "test-unit-start.jpg" :white_check_mark:
 ____
 9-10. Скрипт с добавление в cron с выполнением каждые 10 минут: 
-    Скрипт - "load.sh" :white_check_mark:
-    
-    Файл с записями работы сервиса - "load_logs.txt" :white_check_mark:
+
+* Скрипт - "load.sh" :white_check_mark:
+
+* Файл с записями работы сервиса - "load_logs.txt" :white_check_mark:
 ____

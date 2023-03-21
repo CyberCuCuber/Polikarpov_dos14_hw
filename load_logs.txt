@@ -1,0 +1,132 @@
+ Вт 07 мар 2023 19:48:45 UTC
+Load average, per 15 min: 0,10
+Available root space: 8,0G
+Available RAM space: 1396
+User Process: UID          PID    PPID  C STIME TTY          TIME CMD
+cucumber    1052       1  0 19:10 ?        00:00:00 /lib/systemd/systemd --user
+cucumber    1053    1052  0 19:10 ?        00:00:00 (sd-pam)
+cucumber    1059     762  0 19:10 tty1     00:00:00 -bash
+cucumber    1127    1079  0 19:10 ?        00:00:05 sshd: cucumber@pts/0
+cucumber    1128    1127  0 19:10 pts/0    00:00:01 -bash
+cucumber    1311    1128  0 19:48 pts/0    00:00:00 /bin/bash ./load.sh
+cucumber    1315    1311  0 19:48 pts/0    00:00:00 ps -fu cucumber
+
+ Вт 07 мар 2023 19:49:12 UTC
+Load average, per 15 min: 0,10
+Available root space: 8,0G
+Available RAM space: 1396
+User Process: UID          PID    PPID  C STIME TTY          TIME CMD
+cucumber    1052       1  0 19:10 ?        00:00:00 /lib/systemd/systemd --user
+cucumber    1053    1052  0 19:10 ?        00:00:00 (sd-pam)
+cucumber    1059     762  0 19:10 tty1     00:00:00 -bash
+cucumber    1127    1079  0 19:10 ?        00:00:05 sshd: cucumber@pts/0
+cucumber    1128    1127  0 19:10 pts/0    00:00:01 -bash
+cucumber    1324    1128  0 19:49 pts/0    00:00:00 /bin/bash ./load.sh
+cucumber    1328    1324  0 19:49 pts/0    00:00:00 ps -fu cucumber
+
+ Вт 07 мар 2023 19:49:52 UTC
+Load average, per 15 min: 0,10
+Available root space: 8,0G
+Available RAM space: 1396
+User Process:
+UID          PID    PPID  C STIME TTY          TIME CMD
+cucumber    1052       1  0 19:10 ?        00:00:00 /lib/systemd/systemd --user
+cucumber    1053    1052  0 19:10 ?        00:00:00 (sd-pam)
+cucumber    1059     762  0 19:10 tty1     00:00:00 -bash
+cucumber    1127    1079  0 19:10 ?        00:00:05 sshd: cucumber@pts/0
+cucumber    1128    1127  0 19:10 pts/0    00:00:01 -bash
+cucumber    1341    1128  0 19:49 pts/0    00:00:00 /bin/bash ./load.sh
+cucumber    1345    1341  0 19:49 pts/0    00:00:00 ps -fu cucumber
+
+ Вт 07 мар 2023 20:00:02 UTC
+Load average, per 15 min: 0,12
+Available root space: 8,0G
+Available RAM space: 1392
+User Process:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+cucumber    1128  0.0  2.3  49892 46844 pts/0    Ss+  19:10   0:02 -bash
+cucumber    1059  0.0  2.2  49132 45792 tty1     S+   19:10   0:00 -bash
+
+ Вт 07 мар 2023 20:10:01 UTC
+Load average, per 15 min:
+Available root space: 8,0G
+Available RAM space: 1323
+User Process:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+cucumber    1128  0.0  2.3  49892 46844 pts/0    Ss   19:10   0:02 -bash
+cucumber    1555  0.5  0.2  10164  4496 pts/0    S+   20:09   0:00  \_ git clone git@github.com:CyberCuCuber/Polikarpov_dos14_hw.git
+cucumber    1556  2.0  0.3  14420  7956 pts/0    S+   20:09   0:00      \_ /usr/bin/ssh -o SendEnv=GIT_PROTOCOL git@github.com git-upload-pack 'CyberCuCuber/Polikarpov_dos14_hw.git'
+cucumber    1059  0.0  2.2  49132 45792 tty1     S+   19:10   0:00 -bash
+
+ Вт 07 мар 2023 20:20:01 UTC
+Load average, per 15 min:
+Available root space: 8,0G
+Available RAM space: 1403
+User Process:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+
+ Вт 21 мар 2023 18:40:02 UTC
+Load average, per 15 min: 0,07
+Available root space: 8,0G
+Available RAM space: 1186
+User Process:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+cucumber    1162  0.1  2.2  49140 45908 pts/0    Ss+  18:36   0:00 -bash
+cucumber    1184  0.0  0.0   7716  1312 pts/0    S    18:38   0:00  \_ ping -i 10 google.com
+cucumber    1074  0.1  2.2  49132 46036 tty1     S+   18:35   0:00 -bash
+
+ Вт 21 мар 2023 18:50:01 UTC
+Load average, per 15 min: 0,02
+Available root space: 8,0G
+Available RAM space: 1204
+User Process:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+cucumber    1508  0.0  2.2  49140 45884 pts/0    Ss+  18:40   0:00 -bash
+cucumber    1074  0.0  2.2  49132 46036 tty1     S+   18:35   0:00 -bash
+
+ Вт 21 мар 2023 19:00:01 UTC
+Load average, per 15 min: 0,00
+Available root space: 8,0G
+Available RAM space: 1197
+User Process:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+cucumber    1643  0.0  2.2  49140 46124 pts/0    Ss+  18:55   0:00 -bash
+cucumber    1689  0.1  0.0   7716  1372 pts/0    S    18:59   0:00  \_ ping -i 5 google.com
+cucumber    1074  0.0  2.2  49132 46036 tty1     S+   18:35   0:00 -bash
+
+ Вт 21 мар 2023 19:10:01 UTC
+Load average, per 15 min: 0,00
+Available root space: 8,0G
+Available RAM space: 1178
+User Process:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+cucumber    1643  0.0  2.2  49396 46268 pts/0    Ss+  18:55   0:00 -bash
+cucumber    1074  0.0  2.2  49132 46156 tty1     S+   18:35   0:00 -bash
+
+ Вт 21 мар 2023 19:20:01 UTC
+Load average, per 15 min: 0,00
+Available root space: 8,0G
+Available RAM space: 1178
+User Process:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+cucumber    1643  0.0  2.2  49396 46352 pts/0    Ss   18:55   0:00 -bash
+cucumber    1849  0.0  0.5  21508 10724 pts/0    S+   19:13   0:00  \_ vim /opt/test_units/test_unit.py
+cucumber    1074  0.0  2.2  49132 46156 tty1     S+   18:35   0:00 -bash
+
+ Вт 21 мар 2023 19:30:02 UTC
+Load average, per 15 min: 0,01
+Available root space: 8,0G
+Available RAM space: 1179
+User Process:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+cucumber    1643  0.0  2.2  49396 46440 pts/0    Ss   18:55   0:00 -bash
+cucumber    1074  0.0  2.2  49132 46156 tty1     S+   18:35   0:00 -bash
+
+ Вт 21 мар 2023 19:40:01 UTC
+Load average, per 15 min:
+Available root space: 8,0G
+Available RAM space: 1160
+User Process:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+cucumber    1643  0.0  2.2  49396 46440 pts/0    Ss+  18:55   0:00 -bash
+cucumber    1074  0.0  2.2  49132 46156 tty1     S+   18:35   0:00 -bash

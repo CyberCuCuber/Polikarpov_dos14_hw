@@ -1,2 +1,5 @@
 # Polikarpov_dos14_hw
-Home Work Repository
+
+Описание команд - about_command.txt
+
+Скриншоты с соответствующим командам названием - результат их работы

@@ -14,7 +14,7 @@ password_valid(){
                 echo "Password must be contains at least one capital letter"
             else
                 if ! [[ "$password" =~ [\#\$\%\-\_\!\@]+ ]]; then
-                    echo echo "Password must be contains at least one special character (#$%&-_)"
+                    echo echo "Password must be contains at least one special character (#$%&-_!@)"
                 else
                     echo -e "\nPassword valid"
                 fi
